@@ -114,5 +114,9 @@
 
 
 
-    console.log(Array == String);
+    // console.log(Array() == String());
+    // true
+
+    
+    console.log(["hello"].includes(["hello"]));
 
