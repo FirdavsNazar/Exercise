@@ -95,11 +95,24 @@
 
 // console.log({} + [] > 0);
 
-import React from 'react'
+    // import React from 'react'
 
-export default function app(){
-    return true
-}
+    // export default function app(){
+    //     return true
+    // }
     
 
+
+    // (function(){
+    //     var a = b = 1110
+    // })()
+
+    // // console.log(b);
+    // console.log(1 - - 1);
+
+    // Promise.resolve('Error').catch(error => console.log(error));
+
+
+
+    console.log(Array == String);
 
