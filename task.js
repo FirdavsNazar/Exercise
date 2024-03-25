@@ -93,7 +93,13 @@
 
 
 
-console.log(Number.MAX_VALUE - Number.MIN_VALUE  > 0);
+// console.log({} + [] > 0);
+
+import React from 'react'
+
+export default function app(){
+    return true
+}
     
 
 
