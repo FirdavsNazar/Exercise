@@ -118,5 +118,8 @@
     // true
 
     
-    console.log(["hello"].includes(["hello"]));
+    // console.log(["hello"].includes(["hello"]));
+
+
+    console.log(salom.toLocaleString());
 
