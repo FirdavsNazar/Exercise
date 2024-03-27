@@ -121,5 +121,7 @@
     // console.log(["hello"].includes(["hello"]));
 
 
-    console.log(salom.toLocaleString());
+    // console.log(salom.toLocaleString());
+
+    
 
