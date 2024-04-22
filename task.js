@@ -126,6 +126,14 @@
     // console.log(salom.toLocaleString());
 
 
+
+    // console.log(true+false == 1);
+
+    // console.log(document.documentElement === document.querySelector('html'));
+
+    console.log(0==null);
+
+
     
     
 
