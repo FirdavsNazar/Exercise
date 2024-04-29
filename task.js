@@ -131,7 +131,9 @@
 
     // console.log(document.documentElement === document.querySelector('html'));
 
-    console.log(0==null);
+    // console.log(0==null);
+
+    console.log(Math.abs(-5.3));
 
 
     
