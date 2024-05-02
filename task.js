@@ -131,13 +131,32 @@
 
     // console.log(document.documentElement === document.querySelector('html'));
 
+
+
+
+
+
+
+
     // console.log(0==null);
 
-    console.log(Math.abs(-5.3));
+    // console.log(Math.abs(-5.3));
+
+    // console.log(null >= 0);
+
+    console.log(typeof null + 0 );
+    console.log(false * 45 );
+
+
+    
+
 
 
     
     
+
+
+
 
 
 
