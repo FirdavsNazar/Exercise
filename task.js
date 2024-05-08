@@ -144,8 +144,17 @@
 
     // console.log(null >= 0);
 
-    console.log(typeof null + 0 );
-    console.log(false * 45 );
+    // console.log(typeof null + 0 );
+    // console.log(false * 45 );
+
+    // let {var1, var2} = {var2:34 , var1:23, }
+    // console.log("false");
+
+    // console.log(Math.max(..."1234"));
+
+    console.log(typeof typeof 1);
+
+
 
 
     
