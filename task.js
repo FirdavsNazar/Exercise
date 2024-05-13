@@ -153,6 +153,7 @@
     // console.log(Math.max(..."1234"));
 
     console.log(typeof typeof 1);
+    
 
 
 
