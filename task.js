@@ -153,6 +153,18 @@
     // console.log(Math.max(..."1234"));
 
     console.log(typeof typeof 1);
+
+    function abc(a){
+        return function(b){
+            return function(c){
+                return a+b+c
+            }
+        }
+    }
+
+    let result = abc(12)(21)(54)
+
+    console.log(result);
     
 
 
