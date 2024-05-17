@@ -152,19 +152,36 @@
 
     // console.log(Math.max(..."1234"));
 
-    console.log(typeof typeof 1);
+    // console.log(typeof typeof 1);
 
-    function abc(a){
-        return function(b){
-            return function(c){
-                return a+b+c
-            }
-        }
+    // function abc(a){
+    //     return function(b){
+    //         return function(c){
+    //             return a+b+c
+    //         }
+    //     }
+    // }
+
+    // let result = abc(12)(21)(54)
+
+    // console.log(result);
+
+    // console.log('A' < 'a');
+
+
+    const person = {
+        _name: "Firdavs"
     }
 
-    let result = abc(12)(21)(54)
+    // console.log(6!=6);   /false
 
-    console.log(result);
+    // console.log(true==2);  /false
+
+    // console.log(false == '0');  / true   before compare false = 0 and from string to number "0"-> 0 and 0==0=true
+
+
+
+    
     
 
 
