@@ -179,6 +179,18 @@
 
     // console.log(false == '0');  / true   before compare false = 0 and from string to number "0"-> 0 and 0==0=true
 
+    // console.log((true == []) + (true == ![]));     // 0
+
+    // console.log([] || 0 || true);      // []  the main reason is to checking with || select first true value it means [] is equal to true
+
+    // console.log(typeof 1 );   in this case number
+    // console.log(typeof typeof 1 );   in this case string 
+    
+
+    // console.log(3>2>1);    //false,    main reason is first 3>2 answer is true and true>1 is false. Coz of this answer is false
+
+    // console.log(true == 2);
+
 
 
     
