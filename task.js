@@ -192,9 +192,23 @@
     // console.log(true == 2);
 
 
+    // console.log(1_000 + 2);
+
+
+    let arr = [1,2,3]
+    let arr2 = arr
+
+    // console.log(arr == arr2);
+
+    console.log(JSON.stringify(23));
+
 
     
     
+
+
+
+
 
 
 
