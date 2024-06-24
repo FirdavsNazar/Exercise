@@ -200,7 +200,38 @@
 
     // console.log(arr == arr2);
 
-    console.log(JSON.stringify(23));
+    // console.log(JSON.stringify(23));
+
+    // console.log(6 && 12);
+
+    // console.log([33,2,8].sort()[1]);
+
+
+    // function UxlashdanOldin() {
+    //     console.log("Uxlashdan oldin:");
+
+    //     const delay1 = 1101;
+    //     const delay2 = 2100
+    //     setTimeout(() => {
+    //         console.log("Tahorat olish kerak,");
+    //     },  delay1);
+
+    //     setTimeout(()=>{
+    //         console.log("Suralarni takrorlab uxlash kerak");
+    //     }, delay2)
+    // }
+    
+    // UxlashdanOldin();
+
+
+    let a = {};
+    let b = a;
+    b.c = 1;
+
+    console.log(a.c);
+
+    console.log(6!=6);
+
 
 
     
