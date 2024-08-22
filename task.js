@@ -224,13 +224,42 @@
     // UxlashdanOldin();
 
 
-    let a = {};
-    let b = a;
-    b.c = 1;
+    // let a = {};
+    // let b = a;
+    // b.c = 1;
 
-    console.log(a.c);
+    // console.log(a.c);
 
-    console.log(6!=6);
+    // console.log(6!=6);
+
+
+    // let exapmle = "Bugun havo issiq"
+    // exapmle.Unshift("Iyun")
+
+    // console.log(exapmle);
+
+    // let cars = ["Mers", "BMW"]
+
+    // cars.unshift("Mustang")
+
+    // console.log(cars);
+
+    // function forTask(){
+    //     console.log("Let's check!!");
+    //     setTimeout(()=> console.log("it's working"), 5000)
+    // }
+
+    // forTask()
+
+
+    const test3 = (obj) => {
+        let {a: x, b: y} = obj;
+        [x,y] = [y,x]
+        return {x,y};
+    };
+    console.log( test3({a: 10, b: 20}));
+    
+
 
 
 
