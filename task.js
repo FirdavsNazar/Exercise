@@ -257,6 +257,7 @@
         [x,y] = [y,x]
         return {x,y};
     };
+
     
     console.log( test3({a: 10, b: 20}));
     
