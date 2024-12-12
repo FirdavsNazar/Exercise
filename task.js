@@ -252,14 +252,26 @@
     // forTask()
 
 
-    const test3 = (obj) => {
-        let {a: x, b: y} = obj;
-        [x,y] = [y,x]
-        return {x,y};
-    };
+    // const test3 = (obj) => {
+    //     let {a: x, b: y} = obj;
+    //     [x,y] = [y,x]
+    //     return {x,y};
+    // };
 
+
+    // console.log( test3({a: 10, b: 20}));
+
+
+    function Quran(h) {
+        if (h === "listening quran" && "sport") {
+           return"This is Halal"
+        } else {
+            return("this is haram")
+        }
+    }
+
+    console.log(Quran("drinking alcohol"));
     
-    console.log( test3({a: 10, b: 20}));
     
 
 
